@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Demo Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        header h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.2rem;
+            color: #bdc3c7;
+        }
+        nav {
+            background-color: #34495e;
+            display: flex;
+            justify-content: center;
+            padding: 0.75rem;
+        }
+        nav a {
+            color: #white;
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        card, .card {
+            background: #fff;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #ecf0f1;
+            padding-bottom: 0.5rem;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2c3e50;
+            color: #bdc3c7;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple, clean demo built with plain HTML and CSS</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <div id="about" class="card">
+            <h2>About This Page</h2>
+            <p>This is a lightweight, responsive demo web page. It uses standard HTML5 tags paired with embedded CSS styling so you can test it immediately without needing separate stylesheet files.</p>
+        </div>
+
+        <div id="features" class="card">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Semantic HTML5 structure</strong> (header, nav, main container, footer)</li>
+                <li><strong>Responsive design</strong> that adapts to mobile and desktop screens</li>
+                <li><strong>Zero external dependencies</strong>—just copy, paste, and run</li>
+            </ul>
+        </div>
+
+        <div id="contact" class="card">
+            <h2>Get in Touch</h2>
+            <p>Want to chat or learn more? Reach out via email at <a href="mailto:example@domain.com">example@domain.com</a>.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Demo Website. All rights reserved.</p>
+    </body>
+</html>
